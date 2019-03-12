@@ -14,6 +14,7 @@ import rosegraphics as rg
 
 def main():
     print_sequence1()
+    draw_circles1()
 
     """ Calls the other functions to demonstrate and/or test them. """
     # Test your functions by putting calls to them here:
@@ -47,7 +48,14 @@ def print_sequence1():
 
 
 def draw_circles1():
-    rg.RoseWindow
+    point = (200, 200)
+    rg.RoseWindow(400,400)
+    for k in range(21):
+        rg.Circle(point, k)
+        
+
+
+
     """
     -- Constructs an rg.RoseWindow whose width and height are both 400.
     -- Constructs and draws 21 rg.Circle objects such that:
