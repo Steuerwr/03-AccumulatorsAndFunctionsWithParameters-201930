@@ -52,7 +52,7 @@ def draw_circles1():
     rg.RoseWindow(400,400)
     for k in range(21):
         rg.Circle(point, k)
-        
+
 
 
 
